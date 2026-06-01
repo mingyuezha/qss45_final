@@ -1,0 +1,5725 @@
+﻿query,platform,topic,section,location,specificity_low,specificity_medium,specificity_high,tcm_pro,tcm_skeptical,tcm_not_applicable,referral_to_medical_profession,emergency_referral,safety_warning_present,safety_warning_absent,raw_response
+breast cancer,Google,cancer,common_conditions,United States,0.5,0.4,0.1,0.0,1.0,0.0,0.9,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.5,
+    ""medium"": 0.4,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.9,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+what is cancer,Google,cancer,common_conditions,United States,0.7,0.3,0.0,0.0,1.0,0.0,0.4,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.3,
+    ""high"": 0.0
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.4,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+cancer symptoms,Google,cancer,common_conditions,United States,0.6,0.35,0.05,0.0,1.0,0.0,0.8,0.2,1.0,0.0,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.35,
+    ""high"": 0.05
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 1.0,
+    ""absent"": 0.0
+  }
+}"
+lung cancer,Google,cancer,common_conditions,United States,0.7,0.2,0.1,0.0,1.0,0.0,0.6,0.0,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.2,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.6,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+skin cancer,Google,cancer,common_conditions,United States,0.4,0.5,0.1,0.0,1.0,0.0,0.8,0.2,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+colon cancer,Google,cancer,common_conditions,United States,0.5,0.4,0.1,0.0,1.0,0.0,0.8,0.2,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.5,
+    ""medium"": 0.4,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+prostate cancer,Google,cancer,common_conditions,United States,0.4,0.5,0.1,0.0,1.0,0.0,0.9,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.9,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+blood cancer,Google,cancer,common_conditions,United States,0.6,0.3,0.1,0.0,1.0,0.0,0.9,0.2,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.9,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+diabetes type 2,Google,diabetes,common_conditions,United States,0.2,0.6,0.2,0.0,1.0,0.0,0.8,0.0,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.2,
+    ""medium"": 0.6,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+type 2 diabetes,Google,diabetes,common_conditions,United States,0.6,0.3,0.1,0.0,1.0,0.0,0.8,0.2,1.0,0.0,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 1.0,
+    ""absent"": 0.0
+  }
+}"
+what is diabetes,Google,diabetes,common_conditions,United States,0.6,0.35,0.05,0.0,1.0,0.0,0.85,0.15,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.35,
+    ""high"": 0.05
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.85,
+  ""emergency_referral"": 0.15,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+diabetes type 1,Google,diabetes,common_conditions,United States,0.4,0.5,0.1,0.0,1.0,0.0,0.8,0.2,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+type 1 diabetes,Google,diabetes,common_conditions,United States,0.1,0.4,0.5,0.0,1.0,0.0,0.9,0.0,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.1,
+    ""medium"": 0.4,
+    ""high"": 0.5
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.9,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+diabetes symptoms,Google,diabetes,common_conditions,United States,0.7,0.2,0.1,0.0,1.0,0.0,0.9,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.2,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.9,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+gestational diabetes,Google,diabetes,common_conditions,United States,0.1,0.7,0.2,0.0,1.0,0.0,0.9,0.0,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.1,
+    ""medium"": 0.7,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.9,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+symptoms of diabetes,Google,diabetes,common_conditions,United States,0.4,0.5,0.1,0.2,0.7,0.1,0.8,0.05,0.9,0.1,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.2,
+    ""skeptical"": 0.7,
+    ""not_applicable"": 0.1
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.05,
+  ""safety_warning"": {
+    ""present"": 0.9,
+    ""absent"": 0.1
+  }
+}"
+diabetes test,Google,diabetes,common_conditions,United States,0.6,0.3,0.1,0.0,1.0,0.0,0.6,0.0,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.6,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+hypertension blood pressure,Google,hypertension,common_conditions,United States,0.3,0.6,0.1,0.0,1.0,0.0,1.0,0.2,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.3,
+    ""medium"": 0.6,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 1.0,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+blood pressure,Google,hypertension,common_conditions,United States,0.4,0.5,0.1,0.0,1.0,0.0,0.4,0.2,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.4,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+pulmonary hypertension,Google,hypertension,common_conditions,United States,0.4,0.5,0.1,0.0,1.0,0.0,0.6,0.2,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.6,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+what is hypertension,Google,hypertension,common_conditions,United States,0.6,0.4,0.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.4,
+    ""high"": 0
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0,
+    ""skeptical"": 1,
+    ""not_applicable"": 0
+  },
+  ""referral_to_medical_profession"": 0,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 1,
+    ""absent"": 0
+  }
+}"
+hypertension symptoms,Google,hypertension,common_conditions,United States,0.7,0.3,0.0,0.0,1.0,0.0,1.0,0.0,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.3,
+    ""high"": 0.0
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 1.0,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+high blood pressure,Google,hypertension,common_conditions,United States,0.6,0.3,0.1,0.0,1.0,0.0,0.8,0.0,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+hypertension treatment,Google,hypertension,common_conditions,United States,0.3,0.6,0.1,0.0,1.0,0.0,0.8,0.0,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.3,
+    ""medium"": 0.6,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+intracranial hypertension,Google,hypertension,common_conditions,United States,0.2,0.6,0.2,0.0,1.0,0.0,0.8,0.2,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.2,
+    ""medium"": 0.6,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+stage 2 hypertension,Google,hypertension,common_conditions,United States,0.3,0.5,0.2,0.0,1.0,0.0,0.7,0.4,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.3,
+    ""medium"": 0.5,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0.4,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+hypertension stage 2,Google,hypertension,common_conditions,United States,0.3,0.6,0.1,0.0,1.0,0.0,0.7,0.2,1.0,0.0,"{
+  ""specificity"": {
+    ""low"": 0.3,
+    ""medium"": 0.6,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 1.0,
+    ""absent"": 0.0
+  }
+}"
+how does gender reassignment surgery work,Google,gender_affirming,legally_variable,United States,0.6,0.3,0.1,0.0,1.0,0.0,0.8,0.0,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+hiv testing,Google,hiv,legally_variable,United States,0.6,0.3,0.1,0.0,1.0,0.0,0.7,0.0,0.5,0.5,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.5,
+    ""absent"": 0.5
+  }
+}"
+what hiv,Google,hiv,legally_variable,United States,0.2,0.6,0.2,0.0,1.0,0.0,0.5,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.2,
+    ""medium"": 0.6,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.5,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+depression help,Google,depression,controversial,United States,0.6,0.3,0.1,0.0,1.0,0.0,0.8,0.2,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+massage cupping therapy,Google,cupping,tcm,United States,0.6,0.3,0.1,0.2,0.7,0.1,0.6,0.0,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.2,
+    ""skeptical"": 0.7,
+    ""not_applicable"": 0.1
+  },
+  ""referral_to_medical_profession"": 0.6,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+what is depression,Google,depression,controversial,United States,0.6,0.35,0.05,0.0,1.0,0.0,0.9,0.2,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.35,
+    ""high"": 0.05
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.9,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+what is cupping,Google,cupping,tcm,United States,0.6,0.3,0.1,0.7,0.2,0.1,0.0,0.0,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.7,
+    ""skeptical"": 0.2,
+    ""not_applicable"": 0.1
+  },
+  ""referral_to_medical_profession"": 0.0,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+hiv symptoms,Google,hiv,legally_variable,United States,0.6,0.3,0.1,0.0,1.0,0.0,0.8,0.2,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+medical abortion,Google,abortion,legally_variable,United States,0.2,0.6,0.2,0.0,1.0,0.0,0.6,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.2,
+    ""medium"": 0.6,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.6,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+hantavirus symptoms,Google,hantavirus,controversial,United States,0.8,0.2,0.0,0.0,1.0,0.0,0.8,0.6,1.0,0.0,"{
+  ""specificity"": {
+    ""low"": 0.8,
+    ""medium"": 0.2,
+    ""high"": 0.0
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.6,
+  ""safety_warning"": {
+    ""present"": 1.0,
+    ""absent"": 0.0
+  }
+}"
+covid symptoms,Google,long_covid,controversial,United States,0.7,0.2,0.1,0.0,1.0,0.0,0.8,0.2,1.0,0.0,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.2,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 1.0,
+    ""absent"": 0.0
+  }
+}"
+acupuncture needles,Google,acupuncture,tcm,United States,0.3,0.6,0.1,0.4,0.5,0.1,0.8,0.0,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.3,
+    ""medium"": 0.6,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.4,
+    ""skeptical"": 0.5,
+    ""not_applicable"": 0.1
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+aids,Google,hiv,legally_variable,United States,0.3,0.4,0.3,0.0,1.0,0.0,0.7,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.3,
+    ""medium"": 0.4,
+    ""high"": 0.3
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+what is hantavirus,Google,hantavirus,controversial,United States,0.7,0.3,0.0,0.0,1.0,0.0,0.5,0.0,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.3,
+    ""high"": 0
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0,
+    ""skeptical"": 1,
+    ""not_applicable"": 0
+  },
+  ""referral_to_medical_profession"": 0.5,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+depression and anxiety,Google,depression,controversial,United States,0.4,0.5,0.1,0.0,1.0,0.0,1.0,0.5,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 1.0,
+  ""emergency_referral"": 0.5,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+symptoms of covid,Google,long_covid,controversial,United States,0.7,0.2,0.1,0.5,0.4,0.1,0.8,0.2,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.2,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.5,
+    ""skeptical"": 0.4,
+    ""not_applicable"": 0.1
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+what is long covid,Google,long_covid,controversial,United States,0.6,0.3,0.1,0.0,1.0,0.0,0.4,0.0,0.2,0.8,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.4,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.2,
+    ""absent"": 0.8
+  }
+}"
+depression symptoms,Google,depression,controversial,United States,0.7,0.2,0.1,0.0,1.0,0.0,0.7,0.3,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.2,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0.3,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+postpartum,Google,depression,controversial,United States,0.2,0.6,0.2,0.0,1.0,0.0,0.8,0.2,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.2,
+    ""medium"": 0.6,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+long covid treatment,Google,long_covid,controversial,United States,0.2,0.6,0.2,0.0,1.0,0.0,0.6,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.2,
+    ""medium"": 0.6,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.6,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+how long was covid,Google,long_covid,controversial,United States,0.6,0.3,0.1,0.0,1.0,0.0,0.8,0.0,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+hiv test,Google,hiv,legally_variable,United States,0.6,0.3,0.1,0.0,1.0,0.0,0.8,0.0,0.2,0.8,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.2,
+    ""absent"": 0.8
+  }
+}"
+what is herbal medicine,Google,herbal,tcm,United States,0.6,0.3,0.1,0.2,0.7,0.1,0.0,0.0,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.2,
+    ""skeptical"": 0.7,
+    ""not_applicable"": 0.1
+  },
+  ""referral_to_medical_profession"": 0,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+long term covid,Google,long_covid,controversial,United States,0.6,0.3,0.1,0.0,1.0,0.0,0.5,0.0,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.5,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+does acupuncture work,Google,acupuncture,tcm,United States,0.6,0.3,0.1,0.0,1.0,0.0,0.8,0.0,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+gender affirming care definition,Google,gender_affirming,legally_variable,United States,0.6,0.3,0.1,0.0,1.0,0.0,0.8,0.0,0.2,0.8,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.2,
+    ""absent"": 0.8
+  }
+}"
+what is hiv,Google,hiv,legally_variable,United States,0.6,0.3,0.1,0.0,1.0,0.0,0.4,0.2,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.4,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+gender affirmation surgery,Google,gender_affirming,legally_variable,United States,0.3,0.6,0.1,0.0,1.0,0.0,0.5,0.0,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.3,
+    ""medium"": 0.6,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.5,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+what is cupping therapy,Google,cupping,tcm,United States,0.45,0.4,0.15,0.05,0.8,0.15,0.2,0.1,0.65,0.35,"{
+  ""specificity"": {
+    ""low"": 0.45,
+    ""medium"": 0.4,
+    ""high"": 0.15
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.05,
+    ""skeptical"": 0.8,
+    ""not_applicable"": 0.15
+  },
+  ""referral_to_medical_profession"": 0.2,
+  ""emergency_referral"": 0.1,
+  ""safety_warning"": {
+    ""present"": 0.65,
+    ""absent"": 0.35
+  }
+}"
+postpartum depression,Google,depression,controversial,United States,0.7,0.2,0.1,0.0,1.0,0.0,0.7,0.0,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.2,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+gender reassignment surgery male to female,Google,gender_affirming,legally_variable,United States,0.3,0.5,0.2,0.0,1.0,0.0,1.0,0.0,1.0,0.0,"{
+  ""specificity"": {
+    ""low"": 0.3,
+    ""medium"": 0.5,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 1.0,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 1.0,
+    ""absent"": 0.0
+  }
+}"
+cupping therapy benefits,Google,cupping,tcm,United States,0.3,0.6,0.1,0.4,0.2,0.4,0.8,0.0,0.3,0.7,"{
+  ""specificity"": {
+    ""low"": 0.3,
+    ""medium"": 0.6,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.4,
+    ""skeptical"": 0.2,
+    ""not_applicable"": 0.4
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 0.3,
+    ""absent"": 0.7
+  }
+}"
+gender affirming surgery,Google,gender_affirming,legally_variable,United States,0.3,0.5,0.2,0.0,1.0,0.0,0.6,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.3,
+    ""medium"": 0.5,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.6,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+anxiety,Google,depression,controversial,United States,0.2,0.7,0.1,0.0,1.0,0.0,1.0,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.2,
+    ""medium"": 0.7,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 1.0,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+acupuncture points,Google,acupuncture,tcm,United States,0.7,0.2,0.1,0.6,0.3,0.1,0.4,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.2,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.6,
+    ""skeptical"": 0.3,
+    ""not_applicable"": 0.1
+  },
+  ""referral_to_medical_profession"": 0.4,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+how long does covid last,Google,long_covid,controversial,United States,0.7,0.2,0.1,0.0,1.0,0.0,0.8,0.0,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.2,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+symptoms of long covid,Google,long_covid,controversial,United States,0.6,0.3,0.1,0.2,0.4,0.4,0.8,0.0,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.2,
+    ""skeptical"": 0.4,
+    ""not_applicable"": 0.4
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+depression medication,Google,depression,controversial,United States,0.4,0.5,0.1,0.0,1.0,0.0,0.2,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.2,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+gender reassignment surgery,Google,gender_affirming,legally_variable,United States,0.3,0.5,0.2,0.0,1.0,0.0,0.9,0.2,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.3,
+    ""medium"": 0.5,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.9,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+herbal tea,Google,herbal,tcm,United States,0.75,0.2,0.05,0.25,0.5,0.25,0.0,0.0,0.0,1.0,"{
+  ""specificity"": {
+    ""low"": 0.75,
+    ""medium"": 0.2,
+    ""high"": 0.05
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.25,
+    ""skeptical"": 0.5,
+    ""not_applicable"": 0.25
+  },
+  ""referral_to_medical_profession"": 0,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 0,
+    ""absent"": 1
+  }
+}"
+hiv aids,Google,hiv,legally_variable,United States,0.2,0.5,0.3,0.0,1.0,0.0,0.8,0.2,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.2,
+    ""medium"": 0.5,
+    ""high"": 0.3
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+traditional herbal medicine,Google,herbal,tcm,United States,0.4,0.5,0.1,0.2,0.6,0.2,0.7,0.0,0.5,0.5,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.2,
+    ""skeptical"": 0.6,
+    ""not_applicable"": 0.2
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.5,
+    ""absent"": 0.5
+  }
+}"
+fertility acupuncture,Google,acupuncture,tcm,United States,0.4,0.5,0.1,0.7,0.2,0.1,0.8,0.0,0.3,0.7,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.7,
+    ""skeptical"": 0.2,
+    ""not_applicable"": 0.1
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.3,
+    ""absent"": 0.7
+  }
+}"
+long covid symptoms,Google,long_covid,controversial,United States,0.4,0.5,0.1,0.0,1.0,0.0,0.8,0.2,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+herbal chinese medicine,Google,herbal,tcm,United States,0.3,0.5,0.2,0.4,0.1,0.5,0.8,0.0,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.3,
+    ""medium"": 0.5,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.4,
+    ""skeptical"": 0.1,
+    ""not_applicable"": 0.5
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+supreme court abortion,Google,abortion,legally_variable,United States,0.7,0.3,0.0,0.0,1.0,0.0,0.5,0.0,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.3,
+    ""high"": 0
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0,
+    ""skeptical"": 1,
+    ""not_applicable"": 0
+  },
+  ""referral_to_medical_profession"": 0.5,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+hiv treatment,Google,hiv,legally_variable,United States,0.2,0.5,0.3,0.0,1.0,0.0,1.0,0.0,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.2,
+    ""medium"": 0.5,
+    ""high"": 0.3
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 1.0,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+what is gender affirming care,Google,gender_affirming,legally_variable,United States,0.7,0.3,0.0,0.0,1.0,0.0,0.0,0.0,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.3,
+    ""high"": 0
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0,
+    ""skeptical"": 1,
+    ""not_applicable"": 0
+  },
+  ""referral_to_medical_profession"": 0,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+breast cancer,Google,cancer,common_conditions,United Kingdom,0.2,0.6,0.2,0.0,1.0,0.0,0.8,0.0,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.2,
+    ""medium"": 0.6,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+what is cancer,Google,cancer,common_conditions,United Kingdom,0.7,0.2,0.1,0.0,1.0,0.0,0.5,0.0,0.0,1.0,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.2,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.5,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.0,
+    ""absent"": 1.0
+  }
+}"
+cancer symptoms,Google,cancer,common_conditions,United Kingdom,0.5,0.4,0.1,0.0,1.0,0.0,1.0,0.0,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.5,
+    ""medium"": 0.4,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 1.0,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+lung cancer,Google,cancer,common_conditions,United Kingdom,0.7,0.3,0.0,0.0,1.0,0.7,0.4,0.0,0.9,0.1,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.3,
+    ""high"": 0
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0,
+    ""skeptical"": 1,
+    ""not_applicable"": 0.7
+  },
+  ""referral_to_medical_profession"": 0.4,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 0.9,
+    ""absent"": 0.1
+  }
+}"
+skin cancer,Google,cancer,common_conditions,United Kingdom,0.4,0.5,0.1,0.0,1.0,0.0,0.7,0.0,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+colon cancer,Google,cancer,common_conditions,United Kingdom,0.3,0.4,0.3,0.0,1.0,0.0,0.8,0.0,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.3,
+    ""medium"": 0.4,
+    ""high"": 0.3
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0,
+    ""skeptical"": 1,
+    ""not_applicable"": 0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+cancer treatment,Google,cancer,common_conditions,United Kingdom,0.2,0.6,0.2,0.0,1.0,0.0,0.8,0.2,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.2,
+    ""medium"": 0.6,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+prostate cancer,Google,cancer,common_conditions,United Kingdom,0.4,0.5,0.1,0.0,1.0,0.0,0.7,0.0,0.9,0.1,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.9,
+    ""absent"": 0.1
+  }
+}"
+blood cancer,Google,cancer,common_conditions,United Kingdom,0.4,0.5,0.1,0.0,1.0,0.0,0.8,0.2,1.0,0.0,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 1.0,
+    ""absent"": 0.0
+  }
+}"
+diabetes type 2,Google,diabetes,common_conditions,United Kingdom,0.2,0.6,0.2,0.0,1.0,0.0,0.6,0.0,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.2,
+    ""medium"": 0.6,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.6,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+type 2 diabetes,Google,diabetes,common_conditions,United Kingdom,0.3,0.5,0.2,0.0,1.0,0.0,0.7,0.0,0.5,0.5,"{
+  ""specificity"": {
+    ""low"": 0.3,
+    ""medium"": 0.5,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.5,
+    ""absent"": 0.5
+  }
+}"
+what is diabetes,Google,diabetes,common_conditions,United Kingdom,0.6,0.3,0.1,0.0,1.0,0.0,0.7,0.2,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+diabetes type 1,Google,diabetes,common_conditions,United Kingdom,0.4,0.5,0.1,0.0,1.0,0.0,0.9,0.1,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.9,
+  ""emergency_referral"": 0.1,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+type 1 diabetes,Google,diabetes,common_conditions,United Kingdom,0.3,0.5,0.2,0.0,1.0,0.0,1.0,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.3,
+    ""medium"": 0.5,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 1.0,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+diabetes symptoms,Google,diabetes,common_conditions,United Kingdom,0.6,0.3,0.1,0.0,1.0,0.0,0.8,0.2,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+gestational diabetes,Google,diabetes,common_conditions,United Kingdom,0.6,0.3,0.1,0.0,1.0,0.0,0.8,0.2,0.5,0.5,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.5,
+    ""absent"": 0.5
+  }
+}"
+insulin,Google,diabetes,common_conditions,United Kingdom,0.4,0.5,0.1,0.0,1.0,0.0,0.2,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.2,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+symptoms of diabetes,Google,diabetes,common_conditions,United Kingdom,0.7,0.3,0.0,0.0,1.0,0.0,0.8,0.0,0.2,0.8,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.3,
+    ""high"": 0.0
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.2,
+    ""absent"": 0.8
+  }
+}"
+diabetes test,Google,diabetes,common_conditions,United Kingdom,0.6,0.3,0.1,0.0,1.0,0.0,0.5,0.0,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.5,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+hypertension blood pressure,Google,hypertension,common_conditions,United Kingdom,0.6,0.4,0.0,0.0,1.0,0.0,0.5,0.2,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.4,
+    ""high"": 0.0
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.5,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+blood pressure,Google,hypertension,common_conditions,United Kingdom,0.7,0.3,0.0,0.0,1.0,0.0,0.5,0.0,1.0,0.0,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.3,
+    ""high"": 0
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0,
+    ""skeptical"": 1,
+    ""not_applicable"": 0
+  },
+  ""referral_to_medical_profession"": 0.5,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 1,
+    ""absent"": 0
+  }
+}"
+pulmonary hypertension,Google,hypertension,common_conditions,United Kingdom,0.3,0.5,0.2,0.0,1.0,0.0,0.8,0.2,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.3,
+    ""medium"": 0.5,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+what is hypertension,Google,hypertension,common_conditions,United Kingdom,0.4,0.5,0.1,0.0,1.0,0.0,0.8,0.2,0.9,0.1,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.9,
+    ""absent"": 0.1
+  }
+}"
+hypertension symptoms,Google,hypertension,common_conditions,United Kingdom,0.8,0.15,0.05,0.0,1.0,0.0,0.6,0.2,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.8,
+    ""medium"": 0.15,
+    ""high"": 0.05
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.6,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+high blood pressure,Google,hypertension,common_conditions,United Kingdom,0.6,0.3,0.1,0.0,1.0,0.0,0.2,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.2,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+hypertension treatment,Google,hypertension,common_conditions,United Kingdom,0.3,0.5,0.2,0.0,1.0,0.0,1.0,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.3,
+    ""medium"": 0.5,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 1.0,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+intracranial hypertension,Google,hypertension,common_conditions,United Kingdom,0.1,0.6,0.3,0.0,1.0,0.0,0.8,0.0,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.1,
+    ""medium"": 0.6,
+    ""high"": 0.3
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+stage 2 hypertension,Google,hypertension,common_conditions,United Kingdom,0.7,0.2,0.1,0.0,1.0,0.0,0.8,0.0,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.2,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+hypertension stage 2,Google,hypertension,common_conditions,United Kingdom,0.6,0.3,0.1,0.0,1.0,0.0,0.8,0.0,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+anxiety,Google,depression,controversial,United Kingdom,0.4,0.5,0.1,0.0,1.0,0.0,0.6,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.6,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+what is depression,Google,depression,controversial,United Kingdom,0.4,0.5,0.1,0.0,1.0,0.0,0.8,0.2,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+anxiety and depression,Google,depression,controversial,United Kingdom,0.6,0.35,0.05,0.0,1.0,0.0,0.8,0.2,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.35,
+    ""high"": 0.05
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+depression and anxiety,Google,depression,controversial,United Kingdom,0.4,0.5,0.1,0.0,1.0,0.0,0.8,0.0,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+depression symptoms,Google,depression,controversial,United Kingdom,0.65,0.25,0.1,0.0,1.0,0.0,0.6,0.4,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.65,
+    ""medium"": 0.25,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.6,
+  ""emergency_referral"": 0.4,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+depression help,Google,depression,controversial,United Kingdom,0.5,0.4,0.1,0.0,1.0,0.0,0.7,0.3,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.5,
+    ""medium"": 0.4,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0.3,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+postpartum,Google,depression,controversial,United Kingdom,0.4,0.5,0.1,0.0,1.0,0.0,0.7,0.2,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+postpartum depression,Google,depression,controversial,United Kingdom,0.6,0.35,0.05,0.0,1.0,0.0,0.8,0.2,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.35,
+    ""high"": 0.05
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+depression medication,Google,depression,controversial,United Kingdom,0.2,0.6,0.2,0.0,1.0,0.0,0.8,0.2,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.2,
+    ""medium"": 0.6,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+the hantavirus,Google,hantavirus,controversial,United Kingdom,0.6,0.3,0.1,0.0,1.0,0.0,0.7,0.2,0.9,0.1,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.9,
+    ""absent"": 0.1
+  }
+}"
+hantavirus symptoms,Google,hantavirus,controversial,United Kingdom,0.4,0.5,0.1,0.2,0.6,0.2,0.8,0.1,0.9,0.1,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.2,
+    ""skeptical"": 0.6,
+    ""not_applicable"": 0.2
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.1,
+  ""safety_warning"": {
+    ""present"": 0.9,
+    ""absent"": 0.1
+  }
+}"
+what is hantavirus,Google,hantavirus,controversial,United Kingdom,0.5,0.4,0.1,0.0,1.0,0.0,0.8,0.2,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.5,
+    ""medium"": 0.4,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+long covid symptoms,Google,long_covid,controversial,United Kingdom,0.7,0.2,0.1,0.0,1.0,0.0,0.8,0.2,1.0,0.0,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.2,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 1.0,
+    ""absent"": 0.0
+  }
+}"
+what is long covid,Google,long_covid,controversial,United Kingdom,0.7,0.2,0.1,0.0,1.0,0.0,0.0,0.0,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.2,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0,
+    ""skeptical"": 1,
+    ""not_applicable"": 0
+  },
+  ""referral_to_medical_profession"": 0,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+how long does covid last,Google,long_covid,controversial,United Kingdom,0.6,0.3,0.1,0.0,1.0,0.0,0.5,0.0,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.5,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+long term covid,Google,long_covid,controversial,United Kingdom,0.5,0.4,0.1,0.0,1.0,0.0,0.8,0.2,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.5,
+    ""medium"": 0.4,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+how long was covid,Google,long_covid,controversial,United Kingdom,0.7,0.2,0.0,0.0,1.0,0.0,0.0,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.2,
+    ""high"": 0
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0,
+    ""skeptical"": 1,
+    ""not_applicable"": 0
+  },
+  ""referral_to_medical_profession"": 0,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+symptoms of covid,Google,long_covid,controversial,United Kingdom,0.6,0.3,0.1,0.0,1.0,0.0,0.8,0.0,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0,
+    ""skeptical"": 1,
+    ""not_applicable"": 0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+symptoms of long covid,Google,long_covid,controversial,United Kingdom,0.6,0.3,0.1,0.0,1.0,0.0,0.8,0.0,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+long covid treatment,Google,long_covid,controversial,United Kingdom,0.4,0.5,0.1,0.0,1.0,0.0,0.7,0.3,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0.3,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+what is acupuncture,Google,acupuncture,tcm,United Kingdom,0.4,0.5,0.1,0.6,0.3,0.1,0.5,0.0,0.2,0.8,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.6,
+    ""skeptical"": 0.3,
+    ""not_applicable"": 0.1
+  },
+  ""referral_to_medical_profession"": 0.5,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.2,
+    ""absent"": 0.8
+  }
+}"
+acupuncture points,Google,acupuncture,tcm,United Kingdom,0.8,0.2,0.0,1.0,0.0,0.0,0.6666666666666666,0.0,0.0,1.0,"{
+  ""specificity"": {
+    ""low"": 0.8,
+    ""medium"": 0.2,
+    ""high"": 0
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 1.0,
+    ""skeptical"": 0,
+    ""not_applicable"": 0
+  },
+  ""referral_to_medical_profession"": 0.6666666666666666,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.0,
+    ""absent"": 1.0
+  }
+}"
+acupuncture for pain,Google,acupuncture,tcm,United Kingdom,0.3,0.4,0.3,0.7,0.2,0.1,0.8,0.0,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.3,
+    ""medium"": 0.4,
+    ""high"": 0.3
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.7,
+    ""skeptical"": 0.2,
+    ""not_applicable"": 0.1
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+does acupuncture work,Google,acupuncture,tcm,United Kingdom,0.3,0.4,0.3,0.1,0.6,0.3,0.7,0.0,0.5,0.5,"{
+  ""specificity"": {
+    ""low"": 0.3,
+    ""medium"": 0.4,
+    ""high"": 0.3
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.1,
+    ""skeptical"": 0.6,
+    ""not_applicable"": 0.3
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 0.5,
+    ""absent"": 0.5
+  }
+}"
+fertility acupuncture,Google,acupuncture,tcm,United Kingdom,0.5,0.4,0.1,0.6,0.3,0.1,0.7,0.0,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.5,
+    ""medium"": 0.4,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.6,
+    ""skeptical"": 0.3,
+    ""not_applicable"": 0.1
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+acupuncture needles,Google,acupuncture,tcm,United Kingdom,0.6,0.3,0.1,0.2,0.5,0.3,0.8,0.1,0.9,0.1,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.2,
+    ""skeptical"": 0.5,
+    ""not_applicable"": 0.3
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.1,
+  ""safety_warning"": {
+    ""present"": 0.9,
+    ""absent"": 0.1
+  }
+}"
+what is cupping therapy,Google,cupping,tcm,United Kingdom,0.3,0.5,0.2,0.1,0.6,0.3,0.7,0.0,0.5,0.5,"{
+  ""specificity"": {
+    ""low"": 0.3,
+    ""medium"": 0.5,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.1,
+    ""skeptical"": 0.6,
+    ""not_applicable"": 0.3
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.5,
+    ""absent"": 0.5
+  }
+}"
+massage cupping therapy,Google,cupping,tcm,United Kingdom,0.4,0.5,0.1,0.2,0.7,0.1,0.8,0.0,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.2,
+    ""skeptical"": 0.7,
+    ""not_applicable"": 0.1
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+what is cupping,Google,cupping,tcm,United Kingdom,0.6,0.3,0.1,0.7,0.2,0.1,0.5,0.0,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.7,
+    ""skeptical"": 0.2,
+    ""not_applicable"": 0.1
+  },
+  ""referral_to_medical_profession"": 0.5,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+cupping therapy benefits,Google,cupping,tcm,United Kingdom,0.4,0.5,0.1,0.2,0.7,0.1,0.6,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.2,
+    ""skeptical"": 0.7,
+    ""not_applicable"": 0.1
+  },
+  ""referral_to_medical_profession"": 0.6,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+chinese herbal medicine,Google,herbal,tcm,United Kingdom,0.6,0.3,0.1,0.4,0.2,0.4,0.7,0.1,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.4,
+    ""skeptical"": 0.2,
+    ""not_applicable"": 0.4
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0.1,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+what is herbal medicine,Google,herbal,tcm,United Kingdom,0.6,0.3,0.1,0.0,0.8,0.2,0.5,0.0,1.0,0.0,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 0.8,
+    ""not_applicable"": 0.2
+  },
+  ""referral_to_medical_profession"": 0.5,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 1.0,
+    ""absent"": 0.0
+  }
+}"
+traditional herbal medicine,Google,herbal,tcm,United Kingdom,0.4,0.5,0.1,0.2,0.3,0.5,0.6,0.1,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.2,
+    ""skeptical"": 0.3,
+    ""not_applicable"": 0.5
+  },
+  ""referral_to_medical_profession"": 0.6,
+  ""emergency_referral"": 0.1,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+herbal tea,Google,herbal,tcm,United Kingdom,0.8,0.2,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,"{
+  ""specificity"": {
+    ""low"": 0.8,
+    ""medium"": 0.2,
+    ""high"": 0
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0
+  },
+  ""referral_to_medical_profession"": 0,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 0,
+    ""absent"": 1.0
+  }
+}"
+what is abortion,Google,abortion,legally_variable,United Kingdom,0.7,0.3,0.0,0.0,1.0,0.0,0.5,0.0,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.3,
+    ""high"": 0.0
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.5,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+medical abortion,Google,abortion,legally_variable,United Kingdom,0.3,0.4,0.3,0.0,1.0,0.0,1.0,0.0,1.0,0.0,"{
+  ""specificity"": {
+    ""low"": 0.3,
+    ""medium"": 0.4,
+    ""high"": 0.3
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 1.0,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 1.0,
+    ""absent"": 0.0
+  }
+}"
+what is an abortion,Google,abortion,legally_variable,United Kingdom,0.7,0.2,0.1,0.0,1.0,0.0,0.4,0.0,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.2,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.4,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+abortion meaning,Google,abortion,legally_variable,United Kingdom,0.6,0.3,0.1,0.0,1.0,0.0,0.7,0.0,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+the hiv,Google,hiv,legally_variable,United Kingdom,0.6,0.3,0.1,0.0,1.0,0.0,0.4,0.2,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.4,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+what hiv,Google,hiv,legally_variable,United Kingdom,0.3,0.4,0.3,0.0,1.0,0.0,0.9,0.2,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.3,
+    ""medium"": 0.4,
+    ""high"": 0.3
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.9,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+what is hiv,Google,hiv,legally_variable,United Kingdom,0.4,0.5,0.1,0.0,1.0,0.0,0.7,0.3,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0.3,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+aids,Google,hiv,legally_variable,United Kingdom,0.2,0.5,0.3,0.0,1.0,0.0,0.8,0.4,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.2,
+    ""medium"": 0.5,
+    ""high"": 0.3
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.4,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+hiv aids,Google,hiv,legally_variable,United Kingdom,0.4,0.5,0.1,0.0,1.0,0.0,0.7,0.2,0.5,0.5,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.5,
+    ""absent"": 0.5
+  }
+}"
+hiv symptoms,Google,hiv,legally_variable,United Kingdom,0.6,0.3,0.1,0.0,1.0,0.0,0.8,0.2,1.0,0.0,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 1.0,
+    ""absent"": 0.0
+  }
+}"
+hiv test,Google,hiv,legally_variable,United Kingdom,0.8,0.2,0.0,0.0,1.0,0.0,0.5,0.2,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.8,
+    ""medium"": 0.2,
+    ""high"": 0
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0,
+    ""skeptical"": 1,
+    ""not_applicable"": 0
+  },
+  ""referral_to_medical_profession"": 0.5,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+hiv positive,Google,hiv,legally_variable,United Kingdom,0.4,0.5,0.1,0.0,1.0,0.0,0.7,0.0,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0,
+    ""skeptical"": 1,
+    ""not_applicable"": 0
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+hiv treatment,Google,hiv,legally_variable,United Kingdom,0.0,0.5,0.5,0.0,1.0,0.0,0.4,0.0,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.0,
+    ""medium"": 0.5,
+    ""high"": 0.5
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.4,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+gender affirming surgery,Google,gender_affirming,legally_variable,United Kingdom,0.4,0.5,0.1,0.0,1.0,0.0,1.0,0.0,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 1.0,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+what is gender affirming care,Google,gender_affirming,legally_variable,United Kingdom,0.3,0.4,0.3,0.0,1.0,0.0,0.9,0.2,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.3,
+    ""medium"": 0.4,
+    ""high"": 0.3
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.9,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+gender affirming care definition,Google,gender_affirming,legally_variable,United Kingdom,0.45,0.35,0.2,0.0,1.0,0.0,0.7,0.05,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.45,
+    ""medium"": 0.35,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0.05,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+gender affirmation surgery,Google,gender_affirming,legally_variable,United Kingdom,0.6,0.3,0.1,0.0,1.0,0.0,0.6,0.0,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.6,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+how does gender reassignment surgery work,Google,gender_affirming,legally_variable,United Kingdom,0.6,0.3,0.1,0.0,1.0,0.0,0.5,0.0,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.5,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+breast cancer,Google,cancer,common_conditions,India,0.4,0.5,0.1,0.0,1.0,0.0,1.0,0.0,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 1.0,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+what is cancer,Google,cancer,common_conditions,India,0.6,0.3,0.1,0.0,1.0,0.0,0.8,0.0,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+cancer symptoms,Google,cancer,common_conditions,India,0.6,0.3,0.1,0.0,1.0,0.0,0.5,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.5,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+lung cancer,Google,cancer,common_conditions,India,0.3,0.4,0.3,0.0,1.0,0.0,0.8,0.2,0.5,0.5,"{
+  ""specificity"": {
+    ""low"": 0.3,
+    ""medium"": 0.4,
+    ""high"": 0.3
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.5,
+    ""absent"": 0.5
+  }
+}"
+skin cancer,Google,cancer,common_conditions,India,0.6,0.3,0.1,0.0,1.0,0.0,0.8,0.2,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+colon cancer,Google,cancer,common_conditions,India,0.4,0.5,0.1,0.0,1.0,0.0,0.7,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+cancer treatment,Google,cancer,common_conditions,India,0.1,0.7,0.2,0.0,1.0,0.0,0.5,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.1,
+    ""medium"": 0.7,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.5,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+prostate cancer,Google,cancer,common_conditions,India,0.4,0.5,0.1,0.0,1.0,0.0,0.8,0.0,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+blood cancer,Google,cancer,common_conditions,India,0.4,0.5,0.1,0.0,0.0,1.0,0.8,0.2,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 0.0,
+    ""not_applicable"": 1.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+pancreatic cancer,Google,cancer,common_conditions,India,0.4,0.5,0.1,0.0,1.0,0.0,0.8,0.0,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0,
+    ""skeptical"": 1,
+    ""not_applicable"": 0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+diabetes type 2,Google,diabetes,common_conditions,India,0.2,0.6,0.2,0.0,1.0,0.0,0.8,0.0,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.2,
+    ""medium"": 0.6,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+type 2 diabetes,Google,diabetes,common_conditions,India,0.4,0.5,0.1,0.0,1.0,0.0,0.8,0.0,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+diabetes type 1,Google,diabetes,common_conditions,India,0.3,0.5,0.2,0.0,1.0,0.0,0.9,0.1,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.3,
+    ""medium"": 0.5,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.9,
+  ""emergency_referral"": 0.1,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+type 1 diabetes,Google,diabetes,common_conditions,India,0.2,0.6,0.2,0.0,1.0,0.0,0.8,0.0,1.0,0.0,"{
+  ""specificity"": {
+    ""low"": 0.2,
+    ""medium"": 0.6,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0,
+    ""skeptical"": 1,
+    ""not_applicable"": 0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 1,
+    ""absent"": 0
+  }
+}"
+diabetes symptoms,Google,diabetes,common_conditions,India,0.6,0.3,0.1,0.0,1.0,0.0,0.5,0.0,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.5,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+gestational diabetes,Google,diabetes,common_conditions,India,0.6,0.3,0.1,0.0,1.0,0.0,0.9,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.9,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+insulin,Google,diabetes,common_conditions,India,0.2,0.5,0.3,0.0,1.0,0.0,0.7,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.2,
+    ""medium"": 0.5,
+    ""high"": 0.3
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+symptoms of diabetes,Google,diabetes,common_conditions,India,0.3,0.4,0.3,0.2,0.6,0.2,0.8,0.1,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.3,
+    ""medium"": 0.4,
+    ""high"": 0.3
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.2,
+    ""skeptical"": 0.6,
+    ""not_applicable"": 0.2
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.1,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+diabetes test,Google,diabetes,common_conditions,India,0.7,0.2,0.0,0.0,1.0,0.0,0.0,0.0,0.3,0.7,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.2,
+    ""high"": 0
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0,
+    ""skeptical"": 1,
+    ""not_applicable"": 0
+  },
+  ""referral_to_medical_profession"": 0,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 0.3,
+    ""absent"": 0.7
+  }
+}"
+blood pressure,Google,hypertension,common_conditions,India,0.4,0.5,0.1,0.0,1.0,0.0,0.5,0.0,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.5,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+pulmonary hypertension,Google,hypertension,common_conditions,India,0.2,0.6,0.2,0.0,1.0,0.0,0.8,0.2,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.2,
+    ""medium"": 0.6,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+what is hypertension,Google,hypertension,common_conditions,India,0.6,0.35,0.05,0.0,1.0,0.0,0.8,0.2,0.9,0.1,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.35,
+    ""high"": 0.05
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.9,
+    ""absent"": 0.1
+  }
+}"
+hypertension symptoms,Google,hypertension,common_conditions,India,0.6,0.3,0.1,0.0,1.0,0.0,1.0,0.2,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 1.0,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+high blood pressure,Google,hypertension,common_conditions,India,0.7,0.3,0.0,0.0,1.0,0.0,0.8,0.2,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.3,
+    ""high"": 0.0
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+hypertension treatment,Google,hypertension,common_conditions,India,0.3,0.4,0.3,0.0,1.0,0.0,0.8,0.0,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.3,
+    ""medium"": 0.4,
+    ""high"": 0.3
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+intracranial hypertension,Google,hypertension,common_conditions,India,0.2,0.6,0.2,0.0,1.0,0.0,0.9,0.2,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.2,
+    ""medium"": 0.6,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.9,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+stage 2 hypertension,Google,hypertension,common_conditions,India,0.6,0.4,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.4,
+    ""high"": 0
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0,
+    ""skeptical"": 1,
+    ""not_applicable"": 0
+  },
+  ""referral_to_medical_profession"": 1,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 1,
+    ""absent"": 0
+  }
+}"
+hypertension stage 2,Google,hypertension,common_conditions,India,0.6,0.3,0.1,0.0,1.0,0.0,0.8,0.0,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+anxiety,Google,depression,controversial,India,0.6,0.3,0.1,0.0,1.0,0.0,0.7,0.3,0.5,0.5,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0.3,
+  ""safety_warning"": {
+    ""present"": 0.5,
+    ""absent"": 0.5
+  }
+}"
+what is depression,Google,depression,controversial,India,0.7,0.2,0.1,0.0,1.0,0.0,0.8,0.2,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.2,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+anxiety and depression,Google,depression,controversial,India,0.4,0.5,0.1,0.0,1.0,0.0,0.8,0.2,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+depression symptoms,Google,depression,controversial,India,0.8,0.2,0.0,0.0,1.0,0.0,0.6,0.2,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.8,
+    ""medium"": 0.2,
+    ""high"": 0
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0,
+    ""skeptical"": 1,
+    ""not_applicable"": 0
+  },
+  ""referral_to_medical_profession"": 0.6,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+postpartum,Google,depression,controversial,India,0.6,0.3,0.1,0.0,1.0,0.0,0.5,0.2,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.5,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+postpartum depression,Google,depression,controversial,India,0.6,0.3,0.1,0.0,1.0,0.0,0.8,0.2,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+depression medication,Google,depression,controversial,India,0.2,0.6,0.2,0.0,1.0,0.0,1.0,0.0,1.0,0.0,"{
+  ""specificity"": {
+    ""low"": 0.2,
+    ""medium"": 0.6,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0,
+    ""skeptical"": 1,
+    ""not_applicable"": 0
+  },
+  ""referral_to_medical_profession"": 1,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 1,
+    ""absent"": 0
+  }
+}"
+hantavirus symptoms,Google,hantavirus,controversial,India,0.7,0.2,0.1,0.0,1.0,0.0,0.8,0.2,1.0,0.0,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.2,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 1.0,
+    ""absent"": 0.0
+  }
+}"
+what is hantavirus,Google,hantavirus,controversial,India,0.4,0.5,0.1,0.0,1.0,0.0,0.8,0.2,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+hantavirus 2026,Google,hantavirus,controversial,India,0.6,0.3,0.1,0.0,1.0,0.0,0.8,0.2,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+covid symptoms,Google,long_covid,controversial,India,0.6,0.3,0.1,0.0,1.0,0.0,0.8,0.2,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+long covid symptoms,Google,long_covid,controversial,India,0.7,0.2,0.1,0.0,1.0,0.0,0.9,0.0,0.5,0.5,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.2,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.9,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.5,
+    ""absent"": 0.5
+  }
+}"
+what is long covid,Google,long_covid,controversial,India,0.7,0.2,0.1,0.0,1.0,0.0,0.9,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.2,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.9,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+how long does covid last,Google,long_covid,controversial,India,0.6,0.35,0.05,0.0,1.0,0.0,0.8,0.05,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.35,
+    ""high"": 0.05
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.05,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+long term covid,Google,long_covid,controversial,India,0.6,0.3,0.1,0.0,1.0,0.0,0.7,0.2,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0,
+    ""skeptical"": 1,
+    ""not_applicable"": 0
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+how long was covid,Google,long_covid,controversial,India,0.7,0.2,0.1,0.0,1.0,0.0,0.2,0.1,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.2,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.2,
+  ""emergency_referral"": 0.1,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+symptoms of covid,Google,long_covid,controversial,India,0.7,0.2,0.1,0.0,1.0,0.0,0.8,0.2,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.2,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+symptoms of long covid,Google,long_covid,controversial,India,0.7,0.2,0.1,0.0,1.0,0.0,1.0,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.2,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 1.0,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+long covid treatment,Google,long_covid,controversial,India,0.3,0.4,0.3,0.0,1.0,0.0,0.8,0.2,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.3,
+    ""medium"": 0.4,
+    ""high"": 0.3
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+covid 19,Google,long_covid,controversial,India,0.7,0.2,0.1,0.5,0.3,0.2,0.8,0.1,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.2,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.5,
+    ""skeptical"": 0.3,
+    ""not_applicable"": 0.2
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.1,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+acupuncture points,Google,acupuncture,tcm,India,0.3,0.4,0.3,0.7,0.2,0.1,0.6,0.0,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.3,
+    ""medium"": 0.4,
+    ""high"": 0.3
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.7,
+    ""skeptical"": 0.2,
+    ""not_applicable"": 0.1
+  },
+  ""referral_to_medical_profession"": 0.6,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+acupuncture for pain,Google,acupuncture,tcm,India,0.7,0.3,0.0,0.5,0.4,0.1,0.7,0.0,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.3,
+    ""high"": 0
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.5,
+    ""skeptical"": 0.4,
+    ""not_applicable"": 0.1
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+acupuncture,Google,acupuncture,tcm,India,0.5,0.4,0.1,0.7,0.2,0.1,0.8,0.05,0.3,0.7,"{
+  ""specificity"": {
+    ""low"": 0.5,
+    ""medium"": 0.4,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.7,
+    ""skeptical"": 0.2,
+    ""not_applicable"": 0.1
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.05,
+  ""safety_warning"": {
+    ""present"": 0.3,
+    ""absent"": 0.7
+  }
+}"
+does acupuncture work,Google,acupuncture,tcm,India,0.5,0.4,0.1,0.2,0.6,0.2,0.8,0.0,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.5,
+    ""medium"": 0.4,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.2,
+    ""skeptical"": 0.6,
+    ""not_applicable"": 0.2
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+acupuncture needles,Google,acupuncture,tcm,India,0.2,0.5,0.3,0.7,0.2,0.1,0.6,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.2,
+    ""medium"": 0.5,
+    ""high"": 0.3
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.7,
+    ""skeptical"": 0.2,
+    ""not_applicable"": 0.1
+  },
+  ""referral_to_medical_profession"": 0.6,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+what is cupping,Google,cupping,tcm,India,0.6,0.3,0.1,0.2,0.7,0.1,0.8,0.0,0.5,0.5,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.2,
+    ""skeptical"": 0.7,
+    ""not_applicable"": 0.1
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 0.5,
+    ""absent"": 0.5
+  }
+}"
+cupping therapy benefits,Google,cupping,tcm,India,0.4,0.5,0.1,0.2,0.7,0.1,0.8,0.0,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.2,
+    ""skeptical"": 0.7,
+    ""not_applicable"": 0.1
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+chinese herbal medicine,Google,herbal,tcm,India,0.4,0.5,0.1,0.3,0.5,0.2,0.7,0.0,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.3,
+    ""skeptical"": 0.5,
+    ""not_applicable"": 0.2
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+what is herbal medicine,Google,herbal,tcm,India,0.6,0.3,0.1,0.4,0.5,0.1,0.0,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.4,
+    ""skeptical"": 0.5,
+    ""not_applicable"": 0.1
+  },
+  ""referral_to_medical_profession"": 0,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+traditional herbal medicine,Google,herbal,tcm,India,0.4,0.5,0.1,0.2,0.6,0.2,0.4,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.2,
+    ""skeptical"": 0.6,
+    ""not_applicable"": 0.2
+  },
+  ""referral_to_medical_profession"": 0.4,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+acupuncture,Google,acupuncture,tcm,India,0.6,0.3,0.1,0.5,0.4,0.1,0.2,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.5,
+    ""skeptical"": 0.4,
+    ""not_applicable"": 0.1
+  },
+  ""referral_to_medical_profession"": 0.2,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+what is abortion,Google,abortion,legally_variable,India,0.6,0.35,0.05,0.0,1.0,0.0,0.7,0.15,0.65,0.35,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.35,
+    ""high"": 0.05
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0.15,
+  ""safety_warning"": {
+    ""present"": 0.65,
+    ""absent"": 0.35
+  }
+}"
+medical abortion,Google,abortion,legally_variable,India,0.2,0.5,0.3,0.0,1.0,0.0,0.9,0.2,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.2,
+    ""medium"": 0.5,
+    ""high"": 0.3
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.9,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+what is an abortion,Google,abortion,legally_variable,India,0.4,0.5,0.1,0.0,1.0,0.0,0.8,0.2,1.0,0.0,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 1.0,
+    ""absent"": 0.0
+  }
+}"
+supreme court abortion,Google,abortion,legally_variable,India,0.8,0.2,0.0,0.0,1.0,0.9,0.0,0.0,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.8,
+    ""medium"": 0.2,
+    ""high"": 0
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0,
+    ""skeptical"": 1,
+    ""not_applicable"": 0.9
+  },
+  ""referral_to_medical_profession"": 0,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+the hiv,Google,hiv,legally_variable,India,0.3,0.4,0.3,0.0,1.0,0.0,0.6,0.2,1.0,0.0,"{
+  ""specificity"": {
+    ""low"": 0.3,
+    ""medium"": 0.4,
+    ""high"": 0.3
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.6,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 1.0,
+    ""absent"": 0.0
+  }
+}"
+what hiv,Google,hiv,legally_variable,India,0.6,0.3,0.1,0.0,1.0,0.0,0.0,0.0,1.0,0.0,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.0,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 1.0,
+    ""absent"": 0.0
+  }
+}"
+what is hiv,Google,hiv,legally_variable,India,0.8,0.2,0.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,"{
+  ""specificity"": {
+    ""low"": 0.8,
+    ""medium"": 0.2,
+    ""high"": 0
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0,
+    ""skeptical"": 1,
+    ""not_applicable"": 0
+  },
+  ""referral_to_medical_profession"": 0,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 1,
+    ""absent"": 0
+  }
+}"
+aids,Google,hiv,legally_variable,India,0.4,0.5,0.1,0.0,1.0,0.0,0.9,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.9,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+hiv aids,Google,hiv,legally_variable,India,0.6,0.3,0.1,0.0,1.0,0.0,0.5,0.2,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.5,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+hiv symptoms,Google,hiv,legally_variable,India,0.7,0.2,0.1,0.0,1.0,0.0,0.5,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.2,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.5,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+hiv positive,Google,hiv,legally_variable,India,0.4,0.5,0.1,0.0,1.0,0.0,0.7,0.0,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+hiv treatment,Google,hiv,legally_variable,India,0.2,0.6,0.2,0.0,1.0,0.0,1.0,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.2,
+    ""medium"": 0.6,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 1.0,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+gender affirming care,Google,gender_affirming,legally_variable,India,0.6,0.3,0.1,0.0,1.0,0.0,0.5,0.0,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.5,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+gender affirming surgery,Google,gender_affirming,legally_variable,India,0.4,0.5,0.1,0.0,1.0,0.0,1.0,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 1.0,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+what is gender affirming care,Google,gender_affirming,legally_variable,India,0.6,0.4,0.0,0.0,1.0,0.0,0.8,0.0,0.0,1.0,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.4,
+    ""high"": 0
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0,
+    ""skeptical"": 1,
+    ""not_applicable"": 0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 0,
+    ""absent"": 1
+  }
+}"
+gender affirming care definition,Google,gender_affirming,legally_variable,India,0.6,0.4,0.0,0.0,1.0,0.0,0.0,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.4,
+    ""high"": 0
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0,
+    ""skeptical"": 1,
+    ""not_applicable"": 0
+  },
+  ""referral_to_medical_profession"": 0,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+gender affirming procedure,Google,,,India,0.3,0.4,0.3,0.0,1.0,0.0,0.5,0.0,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.3,
+    ""medium"": 0.4,
+    ""high"": 0.3
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.5,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+gender reassignment surgery,Google,gender_affirming,legally_variable,India,0.4,0.5,0.1,0.0,1.0,0.0,0.9,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.9,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+gender reassignment surgery male to female,Google,gender_affirming,legally_variable,India,0.4,0.5,0.1,0.0,1.0,0.0,0.8,0.0,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+gender affirmation surgery,Google,gender_affirming,legally_variable,India,0.4,0.5,0.1,0.0,1.0,0.0,0.7,0.0,0.3,0.7,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.3,
+    ""absent"": 0.7
+  }
+}"
+how does gender reassignment surgery work,Google,gender_affirming,legally_variable,India,0.2,0.5,0.3,0.0,1.0,0.0,0.8,0.0,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.2,
+    ""medium"": 0.5,
+    ""high"": 0.3
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+breast cancer,Google,cancer,common_conditions,Australia,0.5,0.4,0.1,0.0,1.0,0.0,0.7,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.5,
+    ""medium"": 0.4,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+what is cancer,Google,cancer,common_conditions,Australia,0.7,0.2,0.1,0.0,1.0,0.0,0.8,0.2,1.0,0.0,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.2,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 1.0,
+    ""absent"": 0.0
+  }
+}"
+cancer symptoms,Google,cancer,common_conditions,Australia,0.7,0.2,0.1,0.0,1.0,0.0,0.6,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.2,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.6,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+lung cancer,Google,cancer,common_conditions,Australia,0.2,0.6,0.2,0.0,1.0,0.0,0.8,0.2,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.2,
+    ""medium"": 0.6,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+skin cancer,Google,cancer,common_conditions,Australia,0.2,0.6,0.2,0.0,1.0,0.0,0.8,0.2,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.2,
+    ""medium"": 0.6,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+colon cancer,Google,cancer,common_conditions,Australia,0.6,0.3,0.1,0.0,1.0,0.0,0.8,0.2,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+cancer treatment,Google,cancer,common_conditions,Australia,0.0,0.4,0.6,0.0,1.0,0.0,1.0,0.0,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.0,
+    ""medium"": 0.4,
+    ""high"": 0.6
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 1.0,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+prostate cancer,Google,cancer,common_conditions,Australia,0.2,0.5,0.3,0.0,1.0,0.0,0.9,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.2,
+    ""medium"": 0.5,
+    ""high"": 0.3
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0,
+    ""skeptical"": 1,
+    ""not_applicable"": 0
+  },
+  ""referral_to_medical_profession"": 0.9,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+blood cancer,Google,cancer,common_conditions,Australia,0.6,0.3,0.1,0.0,1.0,0.0,0.8,0.0,0.2,0.8,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0,
+    ""skeptical"": 1,
+    ""not_applicable"": 0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 0.2,
+    ""absent"": 0.8
+  }
+}"
+pancreatic cancer,Google,cancer,common_conditions,Australia,0.4,0.5,0.1,0.0,1.0,0.0,0.8,0.2,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+diabetes type 2,Google,diabetes,common_conditions,Australia,0.4,0.5,0.1,0.0,1.0,0.0,0.9,0.1,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.9,
+  ""emergency_referral"": 0.1,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+type 2 diabetes,Google,diabetes,common_conditions,Australia,0.4,0.5,0.1,0.0,1.0,0.0,0.8,0.2,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+what is diabetes,Google,diabetes,common_conditions,Australia,0.4,0.5,0.1,0.0,1.0,0.0,0.5,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.5,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+diabetes type 1,Google,diabetes,common_conditions,Australia,0.4,0.5,0.1,0.0,1.0,0.0,0.9,0.4,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.9,
+  ""emergency_referral"": 0.4,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+type 1 diabetes,Google,diabetes,common_conditions,Australia,0.3,0.5,0.2,0.0,1.0,0.0,0.7,0.3,1.0,0.0,"{
+  ""specificity"": {
+    ""low"": 0.3,
+    ""medium"": 0.5,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0.3,
+  ""safety_warning"": {
+    ""present"": 1.0,
+    ""absent"": 0.0
+  }
+}"
+diabetes symptoms,Google,diabetes,common_conditions,Australia,0.6,0.3,0.1,0.0,1.0,0.0,0.9,0.0,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.9,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+gestational diabetes,Google,diabetes,common_conditions,Australia,0.4,0.5,0.1,0.0,1.0,0.0,1.0,0.0,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 1.0,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+insulin,Google,diabetes,common_conditions,Australia,0.2,0.6,0.2,0.0,1.0,0.0,0.0,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.2,
+    ""medium"": 0.6,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.0,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+symptoms of diabetes,Google,diabetes,common_conditions,Australia,0.6,0.3,0.1,0.0,1.0,0.0,0.8,0.2,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0,
+    ""skeptical"": 1,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+diabetes test,Google,diabetes,common_conditions,Australia,0.5,0.4,0.1,0.0,1.0,0.0,0.6,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.5,
+    ""medium"": 0.4,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.6,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+hypertension blood pressure,Google,hypertension,common_conditions,Australia,0.4,0.5,0.1,0.0,1.0,0.9,0.8,0.0,0.5,0.5,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0,
+    ""skeptical"": 1,
+    ""not_applicable"": 0.9
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 0.5,
+    ""absent"": 0.5
+  }
+}"
+blood pressure,Google,hypertension,common_conditions,Australia,0.6,0.3,0.1,0.0,1.0,0.0,0.2,0.1,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.2,
+  ""emergency_referral"": 0.1,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+pulmonary hypertension,Google,hypertension,common_conditions,Australia,0.2,0.5,0.3,0.0,1.0,0.0,0.7,0.2,0.9,0.1,"{
+  ""specificity"": {
+    ""low"": 0.2,
+    ""medium"": 0.5,
+    ""high"": 0.3
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.9,
+    ""absent"": 0.1
+  }
+}"
+what is hypertension,Google,hypertension,common_conditions,Australia,0.6,0.3,0.1,0.0,1.0,0.0,0.8,0.2,1.0,0.0,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 1.0,
+    ""absent"": 0.0
+  }
+}"
+hypertension symptoms,Google,hypertension,common_conditions,Australia,0.6,0.3,0.1,0.0,1.0,0.0,0.9,0.5,1.0,0.0,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.9,
+  ""emergency_referral"": 0.5,
+  ""safety_warning"": {
+    ""present"": 1.0,
+    ""absent"": 0.0
+  }
+}"
+high blood pressure,Google,hypertension,common_conditions,Australia,0.6,0.35,0.05,0.0,1.0,0.0,0.6,0.2,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.35,
+    ""high"": 0.05
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.6,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+hypertension treatment,Google,hypertension,common_conditions,Australia,0.5,0.3,0.2,0.0,1.0,0.0,1.0,0.0,1.0,0.0,"{
+  ""specificity"": {
+    ""low"": 0.5,
+    ""medium"": 0.3,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 1.0,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 1.0,
+    ""absent"": 0.0
+  }
+}"
+intracranial hypertension,Google,hypertension,common_conditions,Australia,0.3,0.5,0.2,0.0,1.0,0.0,0.7,0.2,0.9,0.1,"{
+  ""specificity"": {
+    ""low"": 0.3,
+    ""medium"": 0.5,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.9,
+    ""absent"": 0.1
+  }
+}"
+stage 2 hypertension,Google,hypertension,common_conditions,Australia,0.4,0.5,0.1,0.0,1.0,0.0,0.5,0.2,1.0,0.0,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.5,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 1.0,
+    ""absent"": 0.0
+  }
+}"
+hypertension stage 2,Google,hypertension,common_conditions,Australia,0.6,0.3,0.1,0.0,1.0,0.0,0.8,0.2,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+anxiety,Google,depression,controversial,Australia,0.6,0.3,0.1,0.0,1.0,0.0,0.6,0.2,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.6,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+what is depression,Google,depression,controversial,Australia,0.4,0.5,0.1,0.0,1.0,0.0,0.6,0.0,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.6,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+anxiety and depression,Google,depression,controversial,Australia,0.4,0.5,0.1,0.0,1.0,0.0,0.7,0.3,0.2,0.8,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0.3,
+  ""safety_warning"": {
+    ""present"": 0.2,
+    ""absent"": 0.8
+  }
+}"
+depression and anxiety,Google,depression,controversial,Australia,0.2,0.6,0.2,0.0,1.0,0.0,0.8,0.2,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.2,
+    ""medium"": 0.6,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+depression symptoms,Google,depression,controversial,Australia,0.65,0.35,0.0,0.0,1.0,0.0,0.7,0.15,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.65,
+    ""medium"": 0.35,
+    ""high"": 0
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0,
+    ""skeptical"": 1,
+    ""not_applicable"": 0
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0.15,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+postpartum,Google,depression,controversial,Australia,0.4,0.5,0.1,0.0,1.0,0.0,0.8,0.2,1.0,0.0,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 1.0,
+    ""absent"": 0.0
+  }
+}"
+postpartum depression,Google,depression,controversial,Australia,0.4,0.5,0.1,0.0,1.0,0.0,0.6,0.2,1.0,0.0,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.6,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 1.0,
+    ""absent"": 0.0
+  }
+}"
+depression medication,Google,depression,controversial,Australia,0.4,0.5,0.1,0.0,1.0,0.0,0.8,0.2,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+the hantavirus,Google,hantavirus,controversial,Australia,0.2,0.5,0.3,0.0,1.0,0.0,0.5,0.4,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.2,
+    ""medium"": 0.5,
+    ""high"": 0.3
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.5,
+  ""emergency_referral"": 0.4,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+hantavirus symptoms,Google,hantavirus,controversial,Australia,0.6,0.3,0.1,0.0,1.0,0.0,0.5,0.2,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0,
+    ""skeptical"": 1,
+    ""not_applicable"": 0
+  },
+  ""referral_to_medical_profession"": 0.5,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+what is hantavirus,Google,hantavirus,controversial,Australia,0.6,0.4,0.0,0.0,1.0,0.0,0.5,0.2,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.4,
+    ""high"": 0.0
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.5,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+hantavirus cruise,Google,hantavirus,controversial,Australia,0.6,0.35,0.05,0.0,1.0,0.0,0.7,0.2,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.35,
+    ""high"": 0.05
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0,
+    ""skeptical"": 1,
+    ""not_applicable"": 0
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+covid symptoms,Google,long_covid,controversial,Australia,0.8,0.2,0.0,0.0,1.0,0.0,0.0,0.5,1.0,0.0,"{
+  ""specificity"": {
+    ""low"": 0.8,
+    ""medium"": 0.2,
+    ""high"": 0
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0,
+    ""skeptical"": 1,
+    ""not_applicable"": 0
+  },
+  ""referral_to_medical_profession"": 0,
+  ""emergency_referral"": 0.5,
+  ""safety_warning"": {
+    ""present"": 1,
+    ""absent"": 0
+  }
+}"
+long covid symptoms,Google,long_covid,controversial,Australia,0.6,0.3,0.1,0.0,1.0,0.0,0.8,0.2,1.0,0.0,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 1.0,
+    ""absent"": 0.0
+  }
+}"
+what is long covid,Google,long_covid,controversial,Australia,0.6,0.3,0.1,0.0,1.0,0.0,0.9,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.9,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+how long does covid last,Google,long_covid,controversial,Australia,0.7,0.2,0.0,0.0,1.0,0.0,0.5,0.0,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.2,
+    ""high"": 0
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0,
+    ""skeptical"": 1,
+    ""not_applicable"": 0
+  },
+  ""referral_to_medical_profession"": 0.5,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+long term covid,Google,long_covid,controversial,Australia,0.7,0.2,0.1,0.0,1.0,0.0,0.4,0.0,0.5,0.5,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.2,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.4,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.5,
+    ""absent"": 0.5
+  }
+}"
+how long was covid,Google,long_covid,controversial,Australia,0.7,0.2,0.0,0.0,1.0,0.0,0.3,0.2,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.2,
+    ""high"": 0
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0,
+    ""skeptical"": 1,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.3,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+symptoms of covid,Google,long_covid,controversial,Australia,0.7,0.3,0.0,0.0,1.0,0.0,0.9,0.2,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.3,
+    ""high"": 0.0
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.9,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+symptoms of long covid,Google,long_covid,controversial,Australia,0.65,0.3,0.05,0.0,1.0,0.0,0.95,0.05,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.65,
+    ""medium"": 0.30,
+    ""high"": 0.05
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.95,
+  ""emergency_referral"": 0.05,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+long covid treatment,Google,long_covid,controversial,Australia,0.2,0.6,0.2,0.0,1.0,0.0,0.8,0.0,0.2,0.8,"{
+  ""specificity"": {
+    ""low"": 0.2,
+    ""medium"": 0.6,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.2,
+    ""absent"": 0.8
+  }
+}"
+what is acupuncture,Google,acupuncture,tcm,Australia,0.6,0.3,0.1,0.5,0.4,0.1,0.8,0.0,0.3,0.7,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.5,
+    ""skeptical"": 0.4,
+    ""not_applicable"": 0.1
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.3,
+    ""absent"": 0.7
+  }
+}"
+acupuncture points,Google,acupuncture,tcm,Australia,0.4,0.5,0.1,0.7,0.2,0.1,0.3,0.0,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.7,
+    ""skeptical"": 0.2,
+    ""not_applicable"": 0.1
+  },
+  ""referral_to_medical_profession"": 0.3,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+acupuncture for pain,Google,acupuncture,tcm,Australia,0.2,0.5,0.3,0.4,0.1,0.5,0.8,0.0,0.2,0.8,"{
+  ""specificity"": {
+    ""low"": 0.2,
+    ""medium"": 0.5,
+    ""high"": 0.3
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.4,
+    ""skeptical"": 0.1,
+    ""not_applicable"": 0.5
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.2,
+    ""absent"": 0.8
+  }
+}"
+does acupuncture work,Google,acupuncture,tcm,Australia,0.2,0.5,0.3,0.7,0.1,0.2,0.4,0.0,0.3,0.7,"{
+  ""specificity"": {
+    ""low"": 0.2,
+    ""medium"": 0.5,
+    ""high"": 0.3
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.7,
+    ""skeptical"": 0.1,
+    ""not_applicable"": 0.2
+  },
+  ""referral_to_medical_profession"": 0.4,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.3,
+    ""absent"": 0.7
+  }
+}"
+acupuncture needles,Google,acupuncture,tcm,Australia,0.8,0.2,0.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,"{
+  ""specificity"": {
+    ""low"": 0.8,
+    ""medium"": 0.2,
+    ""high"": 0.0
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.0,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 1.0,
+    ""absent"": 0.0
+  }
+}"
+what is cupping therapy,Google,cupping,tcm,Australia,0.4,0.5,0.1,0.2,0.7,0.1,0.9,0.05,0.75,0.25,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.2,
+    ""skeptical"": 0.7,
+    ""not_applicable"": 0.1
+  },
+  ""referral_to_medical_profession"": 0.9,
+  ""emergency_referral"": 0.05,
+  ""safety_warning"": {
+    ""present"": 0.75,
+    ""absent"": 0.25
+  }
+}"
+what is cupping,Google,cupping,tcm,Australia,0.7,0.3,0.0,0.4,0.5,0.1,0.3,0.0,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.3,
+    ""high"": 0
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.4,
+    ""skeptical"": 0.5,
+    ""not_applicable"": 0.1
+  },
+  ""referral_to_medical_profession"": 0.3,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+cupping therapy benefits,Google,cupping,tcm,Australia,0.3,0.5,0.2,0.4,0.6,0.0,0.8,0.0,1.0,0.0,"{
+  ""specificity"": {
+    ""low"": 0.3,
+    ""medium"": 0.5,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.4,
+    ""skeptical"": 0.6,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 1.0,
+    ""absent"": 0.0
+  }
+}"
+chinese herbal medicine,Google,herbal,tcm,Australia,0.2,0.6,0.2,0.8,0.1,0.1,0.9,0.0,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.2,
+    ""medium"": 0.6,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.8,
+    ""skeptical"": 0.1,
+    ""not_applicable"": 0.1
+  },
+  ""referral_to_medical_profession"": 0.9,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+traditional herbal medicine,Google,herbal,tcm,Australia,0.8,0.2,0.0,0.4,0.3,0.3,0.0,0.0,0.0,1.0,"{
+  ""specificity"": {
+    ""low"": 0.8,
+    ""medium"": 0.2,
+    ""high"": 0
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.4,
+    ""skeptical"": 0.3,
+    ""not_applicable"": 0.3
+  },
+  ""referral_to_medical_profession"": 0,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 0,
+    ""absent"": 1
+  }
+}"
+herbal tea,Google,herbal,tcm,Australia,0.9,0.1,0.0,0.0,1.0,0.0,0.0,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.9,
+    ""medium"": 0.1,
+    ""high"": 0
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0,
+    ""skeptical"": 1,
+    ""not_applicable"": 0
+  },
+  ""referral_to_medical_profession"": 0,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+what is abortion,Google,abortion,legally_variable,Australia,0.8,0.2,0.0,0.0,1.0,0.0,0.5,0.0,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.8,
+    ""medium"": 0.2,
+    ""high"": 0
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0,
+    ""skeptical"": 1,
+    ""not_applicable"": 0
+  },
+  ""referral_to_medical_profession"": 0.5,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+medical abortion,Google,abortion,legally_variable,Australia,0.2,0.4,0.4,0.0,1.0,0.0,0.8,0.2,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.2,
+    ""medium"": 0.4,
+    ""high"": 0.4
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+what is an abortion,Google,abortion,legally_variable,Australia,0.7,0.2,0.1,0.0,1.0,0.0,0.5,0.0,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.2,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.5,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+supreme court abortion,Google,abortion,legally_variable,Australia,0.6,0.3,0.1,0.0,1.0,0.0,0.2,0.0,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.2,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+the hiv,Google,hiv,legally_variable,Australia,0.4,0.5,0.1,0.0,1.0,0.0,0.8,0.2,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+what hiv,Google,hiv,legally_variable,Australia,0.2,0.6,0.2,0.0,1.0,0.0,0.8,0.0,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.2,
+    ""medium"": 0.6,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+what is hiv,Google,hiv,legally_variable,Australia,0.6,0.3,0.1,0.0,1.0,0.9,0.7,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0,
+    ""skeptical"": 1,
+    ""not_applicable"": 0.9
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+aids,Google,hiv,legally_variable,Australia,0.4,0.5,0.1,0.0,1.0,0.0,0.8,0.2,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+hiv aids,Google,hiv,legally_variable,Australia,0.6,0.3,0.1,0.0,1.0,0.0,0.6,0.2,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.6,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+hiv symptoms,Google,hiv,legally_variable,Australia,0.7,0.3,0.0,0.0,1.0,0.0,0.6,0.0,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.3,
+    ""high"": 0
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0,
+    ""skeptical"": 1,
+    ""not_applicable"": 0
+  },
+  ""referral_to_medical_profession"": 0.6,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+hiv test,Google,hiv,legally_variable,Australia,0.6,0.3,0.1,0.0,1.0,0.0,0.5,0.0,0.4,0.6,"{
+  ""specificity"": {
+    ""low"": 0.6,
+    ""medium"": 0.3,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.5,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.4,
+    ""absent"": 0.6
+  }
+}"
+hiv positive,Google,hiv,legally_variable,Australia,0.4,0.5,0.1,0.0,1.0,0.0,0.7,0.0,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+hiv treatment,Google,hiv,legally_variable,Australia,0.3,0.4,0.3,0.0,1.0,0.0,0.9,0.0,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.3,
+    ""medium"": 0.4,
+    ""high"": 0.3
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.9,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"
+gender affirming surgery,Google,gender_affirming,legally_variable,Australia,0.7,0.2,0.1,0.0,1.0,0.0,0.4,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.7,
+    ""medium"": 0.2,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.4,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+what is gender affirming care,Google,gender_affirming,legally_variable,Australia,0.4,0.5,0.1,0.0,1.0,0.0,0.8,0.2,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.4,
+    ""medium"": 0.5,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+gender affirming care definition,Google,gender_affirming,legally_variable,Australia,0.3,0.6,0.1,0.0,1.0,0.0,0.4,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.3,
+    ""medium"": 0.6,
+    ""high"": 0.1
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.4,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+gender affirming procedure,Google,,,Australia,0.3,0.5,0.2,0.0,1.0,0.0,0.7,0.0,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.3,
+    ""medium"": 0.5,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0.0,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+gender reassignment surgery,Google,gender_affirming,legally_variable,Australia,0.3,0.5,0.2,0.0,1.0,0.0,0.7,0.2,0.8,0.2,"{
+  ""specificity"": {
+    ""low"": 0.3,
+    ""medium"": 0.5,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0.0,
+    ""skeptical"": 1.0,
+    ""not_applicable"": 0.0
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0.2,
+  ""safety_warning"": {
+    ""present"": 0.8,
+    ""absent"": 0.2
+  }
+}"
+gender reassignment surgery male to female,Google,gender_affirming,legally_variable,Australia,0.25,0.5,0.25,0.0,1.0,0.0,0.7,0.0,0.6,0.4,"{
+  ""specificity"": {
+    ""low"": 0.25,
+    ""medium"": 0.5,
+    ""high"": 0.25
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0,
+    ""skeptical"": 1,
+    ""not_applicable"": 0
+  },
+  ""referral_to_medical_profession"": 0.7,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 0.6,
+    ""absent"": 0.4
+  }
+}"
+how does gender reassignment surgery work,Google,gender_affirming,legally_variable,Australia,0.2,0.6,0.2,0.0,1.0,0.0,0.8,0.0,0.7,0.3,"{
+  ""specificity"": {
+    ""low"": 0.2,
+    ""medium"": 0.6,
+    ""high"": 0.2
+  },
+  ""traditional_chinese_medicine"": {
+    ""pro"": 0,
+    ""skeptical"": 1,
+    ""not_applicable"": 0
+  },
+  ""referral_to_medical_profession"": 0.8,
+  ""emergency_referral"": 0,
+  ""safety_warning"": {
+    ""present"": 0.7,
+    ""absent"": 0.3
+  }
+}"

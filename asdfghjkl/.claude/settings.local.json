@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import textblob; print\\('textblob ok'\\)\")",
+      "Bash(python3 -c \"import nltk; print\\('nltk ok'\\)\")",
+      "Bash(python3 -c \"import sklearn; print\\('sklearn ok'\\)\")",
+      "Bash(python3 -c \"import seaborn; print\\('seaborn ok'\\)\")",
+      "Bash(python3 -c \"from nltk.sentiment.vader import SentimentIntensityAnalyzer; print\\('vader ok'\\)\")",
+      "Bash(python3 -c \"import nltk; nltk.download\\('vader_lexicon', quiet=True\\); from nltk.sentiment.vader import SentimentIntensityAnalyzer; sia = SentimentIntensityAnalyzer\\(\\); print\\(sia.polarity_scores\\('This is great'\\)\\)\")",
+      "Bash(jupyter nbconvert *)",
+      "Bash(python3 *)",
+      "Bash(pip show *)",
+      "Bash(pip install *)",
+      "Bash(claude --version)",
+      "Bash(claude auth *)",
+      "Bash(npm create *)",
+      "Bash(sudo chown -R 501:20 \"/Users/mingyuezha/.npm\")",
+      "Bash(npm_config_cache=/tmp/npm-cache npm create vite@latest /tmp/health-demo -- --template react)",
+      "Read(//tmp/**)",
+      "Bash(npm_config_cache=/tmp/npm-cache npm install)",
+      "Bash(npm_config_cache=/tmp/npm-cache npm install recharts)",
+      "Bash(npm_config_cache=/tmp/npm-cache npm create vite@latest /tmp/healthdemo --template react -- --yes)",
+      "Bash(npm_config_cache=/tmp/npm-cache npm run *)",
+      "Bash(npm_config_cache=/tmp/npm-cache npm install react react-dom)",
+      "Bash(curl -s http://localhost:5174)",
+      "Bash(npx playwright *)",
+      "Bash(npm_config_cache=/tmp/npm-cache npx --yes playwright install chromium)",
+      "Bash(npm_config_cache=/tmp/npm-cache npm init -y)",
+      "Bash(npm_config_cache=/tmp/npm-cache npm install playwright)",
+      "Bash(node verify-dashboard.mjs)"
+    ]
+  }
+}
