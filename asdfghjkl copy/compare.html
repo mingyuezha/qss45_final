@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>US vs Baidu · AI Health Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+    <style>
+        /* ── Compare-page styles ── */
+        .compare-header {
+            position: relative;
+            z-index: 1;
+            padding: 7rem 2rem 3rem;
+            text-align: center;
+        }
+
+        .compare-header__label {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.35rem 1.1rem;
+            background: rgba(33, 150, 243, 0.07);
+            border: 1px solid rgba(33, 150, 243, 0.24);
+            border-radius: 100px;
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--blue-700);
+            margin-bottom: 1.2rem;
+        }
+
+        .compare-header__title {
+            font-size: clamp(2.4rem, 6vw, 4.5rem);
+            font-weight: 900;
+            letter-spacing: -3px;
+            line-height: 1;
+            background: linear-gradient(145deg, var(--blue-900) 0%, var(--blue-700) 45%, var(--blue-400) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.8rem;
+        }
+
+        .compare-header__sub {
+            font-size: 1rem;
+            color: var(--ink-400);
+            font-weight: 400;
+        }
+
+        /* Page body */
+        .compare-body {
+            position: relative;
+            z-index: 1;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem 5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        /* Section labels */
+        .compare-section-label {
+            font-size: 0.68rem;
+            font-weight: 700;
+            letter-spacing: 2.5px;
+            text-transform: uppercase;
+            color: var(--blue-400);
+            text-align: center;
+            margin-bottom: -0.5rem;
+            margin-top: 1rem;
+        }
+
+        /* Overall rate cards */
+        .rate-cards-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+        }
+
+        .rate-card {
+            padding: 2.5rem 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.55rem;
+            text-align: center;
+        }
+
+        .rate-card__platform {
+            font-size: 0.68rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .rate-card--us .rate-card__platform { color: var(--blue-600); }
+        .rate-card--baidu .rate-card__platform { color: #c0392b; }
+
+        .rate-card__number {
+            font-size: 4.2rem;
+            font-weight: 900;
+            letter-spacing: -3px;
+            line-height: 1;
+        }
+
+        .rate-card--us .rate-card__number {
+            background: linear-gradient(135deg, var(--blue-800), var(--blue-400));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .rate-card--baidu .rate-card__number {
+            background: linear-gradient(135deg, #c0392b, #e74c3c, #f39c12);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .rate-card__sub {
+            font-size: 0.82rem;
+            color: var(--ink-400);
+            font-weight: 500;
+        }
+
+        .rate-card__bar {
+            width: 100%;
+            height: 4px;
+            background: rgba(144, 202, 249, 0.18);
+            border-radius: 4px;
+            margin-top: 1rem;
+            overflow: hidden;
+        }
+
+        .rate-card--us .rate-card__bar-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--blue-700), var(--blue-300));
+            border-radius: 4px;
+            animation: bar-grow 1.2s cubic-bezier(0.34, 1.2, 0.64, 1) both;
+        }
+
+        .rate-card--baidu .rate-card__bar-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #c0392b, #f39c12);
+            border-radius: 4px;
+            animation: bar-grow 1.2s cubic-bezier(0.34, 1.2, 0.64, 1) both;
+            animation-delay: 0.1s;
+        }
+
+        @keyframes bar-grow {
+            from { width: 0 !important; }
+        }
+
+        /* Chart cards */
+        .chart-card {
+            padding: 2rem 2rem 1.5rem;
+        }
+
+        .chart-card__title {
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--blue-400);
+            margin-bottom: 0.5rem;
+        }
+
+        .chart-card__desc {
+            font-size: 0.83rem;
+            color: var(--ink-400);
+            margin-bottom: 1.4rem;
+            line-height: 1.55;
+        }
+
+        /* Insight callout */
+        .insight-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+        }
+
+        .insight-card {
+            padding: 1.6rem 1.8rem;
+            display: flex;
+            gap: 1rem;
+            align-items: flex-start;
+        }
+
+        .insight-card__icon {
+            font-size: 1.5rem;
+            line-height: 1;
+            flex-shrink: 0;
+            margin-top: 0.1rem;
+        }
+
+        .insight-card__body {}
+
+        .insight-card__title {
+            font-size: 0.88rem;
+            font-weight: 700;
+            color: var(--blue-900);
+            margin-bottom: 0.3rem;
+        }
+
+        .insight-card__text {
+            font-size: 0.82rem;
+            color: var(--ink-400);
+            line-height: 1.6;
+        }
+
+        /* Legend pill */
+        .chart-legend {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            margin-bottom: 1.2rem;
+        }
+
+        .legend-pill {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--ink-400);
+        }
+
+        .legend-swatch {
+            width: 14px;
+            height: 14px;
+            border-radius: 4px;
+            flex-shrink: 0;
+        }
+
+        /* Nav active */
+        .nav__link--active {
+            color: var(--blue-700) !important;
+        }
+        .nav__link--active::after {
+            transform: scaleX(1) !important;
+        }
+
+        @media (max-width: 720px) {
+            .rate-cards-row,
+            .insight-row {
+                grid-template-columns: 1fr;
+            }
+            .compare-body {
+                padding: 0 1.25rem 4rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Background Decoration -->
+    <div class="bg-decoration" aria-hidden="true">
+        <div class="bg-orb bg-orb--1"></div>
+        <div class="bg-orb bg-orb--2"></div>
+        <div class="bg-orb bg-orb--3"></div>
+        <div class="bg-orb bg-orb--4"></div>
+        <div class="bg-grid"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav__inner">
+            <div class="nav__brand">
+                <span class="nav__brand-dot"></span>
+                AI Health Dashboard
+            </div>
+            <div class="nav__links">
+                <a href="index.html" class="nav__link">Home</a>
+                <a href="dashboard.html" class="nav__link">Dashboard</a>
+                <a href="compare.html" class="nav__link nav__link--active">US vs Baidu</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- Header -->
+        <div class="compare-header">
+            <div class="compare-header__label">Platform Comparison · Google vs Baidu</div>
+            <h1 class="compare-header__title">US vs Baidu</h1>
+            <p class="compare-header__sub">AI Overview rates and cited sources across 120 matched health queries</p>
+        </div>
+
+        <div class="compare-body">
+
+            <!-- Overall rate cards -->
+            <div class="compare-section-label">Overall AI Overview Rate</div>
+            <div class="rate-cards-row">
+                <div class="glass-card rate-card rate-card--us">
+                    <div class="rate-card__platform">Google · United States</div>
+                    <div class="rate-card__number">63.6%</div>
+                    <div class="rate-card__sub">75 of 118 queries returned an AI Overview</div>
+                    <div class="rate-card__bar">
+                        <div class="rate-card__bar-fill" style="width: 63.6%"></div>
+                    </div>
+                </div>
+                <div class="glass-card rate-card rate-card--baidu">
+                    <div class="rate-card__platform">Baidu · China</div>
+                    <div class="rate-card__number">64.2%</div>
+                    <div class="rate-card__sub">77 of 120 queries returned an AI Overview</div>
+                    <div class="rate-card__bar">
+                        <div class="rate-card__bar-fill" style="width: 64.2%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Grouped bar: AI overview by section -->
+            <div class="compare-section-label">AI Overview Rate by Health Category</div>
+            <div class="glass-card chart-card">
+                <div class="chart-card__title">AI Overview Rate by Health Section</div>
+                <div class="chart-card__desc">
+                    Both platforms show high AI overview rates for common conditions, but diverge sharply on TCM (+21.9 pp for Baidu) and legally variable topics (+17.2 pp for Google US).
+                </div>
+                <div class="chart-legend">
+                    <div class="legend-pill">
+                        <div class="legend-swatch" style="background: rgba(21,101,192,0.82)"></div>
+                        Google US
+                    </div>
+                    <div class="legend-pill">
+                        <div class="legend-swatch" style="background: rgba(192,57,43,0.80)"></div>
+                        Baidu
+                    </div>
+                </div>
+                <div style="position:relative; height:300px;">
+                    <canvas id="section-compare"></canvas>
+                </div>
+            </div>
+
+            <!-- Key insights -->
+            <div class="compare-section-label">Key Findings</div>
+            <div class="insight-row">
+                <div class="glass-card insight-card">
+                    <div class="insight-card__icon">&#127774;</div>
+                    <div class="insight-card__body">
+                        <div class="insight-card__title">Baidu favors TCM queries</div>
+                        <div class="insight-card__text">Baidu returns AI overviews for 63.3% of Traditional Chinese Medicine queries vs only 41.4% on Google US — a 21.9 percentage point gap reflecting platform alignment with culturally dominant medicine.</div>
+                    </div>
+                </div>
+                <div class="glass-card insight-card">
+                    <div class="insight-card__icon">&#9878;</div>
+                    <div class="insight-card__body">
+                        <div class="insight-card__title">Google US leads on legally variable topics</div>
+                        <div class="insight-card__text">Google US returns AI overviews for 58.6% of legally variable health topics (e.g. abortion, gender-affirming care) vs Baidu's 41.4% — suggesting Baidu suppresses politically sensitive content more aggressively.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Baidu top domains -->
+            <div class="compare-section-label">Baidu · Top Cited Domains</div>
+            <div class="glass-card chart-card">
+                <div class="chart-card__title">Top 10 Cited Domains — Baidu</div>
+                <div class="chart-card__desc">
+                    Baidu citations are dominated by domestic Chinese health platforms. bohe.cn alone accounts for over 40% of all citations, with Baidu's own properties (baike.baidu.com, baijiahao.baidu.com, health.baidu.com) making up a significant share.
+                </div>
+                <div style="position:relative; height:340px;">
+                    <canvas id="domains-baidu"></canvas>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__inner">
+            <p>Googling Your Health &nbsp;&middot;&nbsp; Mingyue Zha &nbsp;&middot;&nbsp; 2026</p>
+        </div>
+    </footer>
+
+    <script>
+    Chart.defaults.font.family = "'Segoe UI', system-ui, -apple-system, sans-serif";
+    Chart.defaults.color = '#546e7a';
+
+    const SECTION_LABELS = ['Common Conditions', 'Controversial', 'Legally Variable', 'Traditional\nChinese Med.'];
+
+    // ── Grouped bar: section comparison ──────────────────────────────────────
+    new Chart(document.getElementById('section-compare').getContext('2d'), {
+        type: 'bar',
+        data: {
+            labels: ['Common Conditions', 'Controversial', 'Legally Variable', 'Traditional Chinese Med.'],
+            datasets: [
+                {
+                    label: 'Google US',
+                    data: [90.0, 63.3, 58.6, 41.4],
+                    backgroundColor: 'rgba(21,101,192,0.82)',
+                    hoverBackgroundColor: 'rgba(21,101,192,0.97)',
+                    borderRadius: 7,
+                    borderSkipped: false
+                },
+                {
+                    label: 'Baidu',
+                    data: [90.0, 60.0, 41.4, 63.3],
+                    backgroundColor: 'rgba(192,57,43,0.78)',
+                    hoverBackgroundColor: 'rgba(192,57,43,0.95)',
+                    borderRadius: 7,
+                    borderSkipped: false
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { display: false },
+                tooltip: {
+                    callbacks: {
+                        label: ctx => ` ${ctx.dataset.label}: ${ctx.parsed.y.toFixed(1)}%`
+                    }
+                }
+            },
+            scales: {
+                x: {
+                    grid: { display: false },
+                    border: { display: false },
+                    ticks: { font: { size: 12, weight: '600' } }
+                },
+                y: {
+                    min: 0,
+                    max: 100,
+                    grid: { color: 'rgba(144,202,249,0.18)' },
+                    border: { display: false },
+                    ticks: {
+                        font: { size: 11 },
+                        callback: v => v + '%',
+                        stepSize: 25
+                    }
+                }
+            }
+        }
+    });
+
+    // ── Horizontal bar: Baidu top domains ────────────────────────────────────
+    const baiduDomains = {
+        labels: ['bohe.cn', 'baike.baidu.com', 'm.youlai.cn', 'baijiahao.baidu.com', 'youlai.cn', 'm.bohe.cn', 'mfk.com', 'mp.weixin.qq.com', 'health.baidu.com', 'm.dayi.org.cn'],
+        counts: [108, 44, 35, 35, 29, 25, 24, 7, 5, 3]
+    };
+
+    const RED_GRADIENT = [
+        'rgba(192,57,43,0.85)',
+        'rgba(192,57,43,0.78)',
+        'rgba(211,84,0,0.75)',
+        'rgba(211,84,0,0.70)',
+        'rgba(230,126,34,0.68)',
+        'rgba(230,126,34,0.63)',
+        'rgba(243,156,18,0.60)',
+        'rgba(243,156,18,0.55)',
+        'rgba(249,202,104,0.52)',
+        'rgba(249,202,104,0.47)'
+    ];
+
+    new Chart(document.getElementById('domains-baidu').getContext('2d'), {
+        type: 'bar',
+        data: {
+            labels: [...baiduDomains.labels].reverse(),
+            datasets: [{
+                data: [...baiduDomains.counts].reverse(),
+                backgroundColor: [...RED_GRADIENT].reverse(),
+                hoverBackgroundColor: RED_GRADIENT.map(c => c.replace(/[\d.]+\)$/, '1)')).reverse(),
+                borderRadius: 6,
+                borderSkipped: false
+            }]
+        },
+        options: {
+            indexAxis: 'y',
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { display: false },
+                tooltip: {
+                    callbacks: {
+                        label: ctx => ` ${ctx.parsed.x} citations`
+                    }
+                }
+            },
+            scales: {
+                y: {
+                    grid: { display: false },
+                    border: { display: false },
+                    ticks: { font: { size: 12, weight: '500' } }
+                },
+                x: {
+                    grid: { color: 'rgba(144,202,249,0.18)' },
+                    border: { display: false },
+                    ticks: { font: { size: 11 }, stepSize: 20 }
+                }
+            }
+        }
+    });
+    </script>
+
+</body>
+</html>
