@@ -13,9 +13,8 @@ Analysis of AI Overview behavior in Google health searches across four countries
 | `data/australia.csv` | Raw Google scrape — Australia (120 queries) |
 | `data/india.csv` | Raw Google scrape — India (120 queries) |
 | `data/baidu.csv` | Raw Baidu scrape — China (120 queries, bilingual) |
-| `data/all_google.csv` | Preprocessed Google data, all four countries combined (478 rows) |
-| `data/all_google_zero_shot.csv` | Google data with LLM-coded framing dimensions added (316 rows, AI overview rows only) |
-| `data/platform_combined.csv` | Google + Baidu combined (238 rows) |
+| `data/all_google.csv` | Preprocessed Google data, all four countries combined (480 rows) |
+| `data/platform_combined.csv` | Google + Baidu combined (240 rows) |
 
 ### Key columns in `all_google.csv`
 
@@ -324,7 +323,7 @@ Analysis of AI Overview behavior in Google health searches across four countries
 **Purpose:** BERTopic topic modeling on AI Overview content for both Google (English) and Baidu (Chinese), using a multilingual sentence encoder.
 
 **Inputs:**
-- `data/df.csv` — split into `google_df` (118 rows) and `baidu_df` (120 rows)
+- `data/df.csv` — split into `google_df` (120 rows) and `baidu_df` (120 rows)
 
 **Key logic:**
 - `extract_text(raw)` — joins `all_items` list into a single string per row
